@@ -1,0 +1,10 @@
+app:
+  port: 8082
+  datasource:
+    driver: mysql
+    host: localhost
+    port: 3306
+    database: todo-list
+    username: root
+    password: 123456
+    params: parseTime=true&multiStatements=true
